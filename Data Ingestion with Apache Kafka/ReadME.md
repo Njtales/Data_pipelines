@@ -1,5 +1,6 @@
-<h4>Ingesting Data from Alpha Vantage and Storing it in a MongoDB Database using Apache Kafka</h4>
-Here are the high-level steps to follow for ingesting data from Alpha Vantage and storing it in a MongoDB database using Apache Kafka:
+## Ingesting Data from Alpha Vantage and Storing it in a MongoDB Database using Apache Kafka.
+
+> Here are the high-level steps to follow for ingesting data from Alpha Vantage and storing it in a MongoDB database using Apache Kafka:
 
 Prerequisites
 Sign up for an Alpha Vantage API key: If you haven't already, sign up for a free API key from Alpha Vantage. You will need this key to access their API and retrieve financial data.
