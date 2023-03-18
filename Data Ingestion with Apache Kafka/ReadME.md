@@ -2,14 +2,14 @@
 
 ### Here are the high-level steps to follow for ingesting data from Alpha Vantage and storing it in a MongoDB database using Apache Kafka:
 
-**Prerequisites** <br>
+*Prerequisites* <br>
 - Sign up for an Alpha Vantage API key: If you haven't already, sign up for a free API key from Alpha Vantage. You will need this key to access their API and retrieve financial data.<br>
 
 - Set up a Kafka cluster: Set up a Kafka cluster using your preferred cloud provider or on-premises infrastructure. You will need at least one Kafka broker and one ZooKeeper instance.<br>
 
 - Set up a MongoDB instance: Set up a MongoDB instance using your preferred cloud provider or on-premises infrastructure. You will use this instance to store the data that you ingest from Alpha Vantage.<br>
 
-**Steps**<br>
+*Steps*<br>
 - Create a Kafka topic: Create a Kafka topic to store the data that you will ingest from Alpha Vantage. This topic will be the source of data for the Kafka producer.<br>
 
 - Set up a Kafka producer: Use a Kafka producer to fetch data from Alpha Vantage's API and write it to the Kafka topic that you created in the previous step. You can use any programming language with a Kafka client library to implement the Kafka producer.<br>
