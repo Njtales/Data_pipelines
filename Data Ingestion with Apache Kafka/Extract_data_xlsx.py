@@ -25,11 +25,11 @@ df = pd.DataFrame(index=close_data.index)
 df = df.join(close_data)
 
 # Check if a file with today's date minus one day already exists
-if os.path.isfile(('E:\Working dir\Data Pipelines\Data Ingestion with Apache Kafka\Data/'\
+if os.path.isfile(('E:\Working dir\Data_Engg\Data Ingestion with Apache Kafka\Data/'\
             + str(datetime.date.today() - datetime.timedelta(days=1)) + '.xlsx')) :
     print("File already exists!")
 else:
     # Print the first few rows of the DataFrame and save it to an Excel file (using the previous data as filename)
     print(df.head())
-    df.to_excel('E:\Working dir\Data Pipelines\Data Ingestion with Apache Kafka\Data/'\
-            + str(datetime.date.today() - datetime.timedelta(days=1)) + '.xlsx')
+    df.to_excel('E:\Working dir\Data_Engg\Data Ingestion with Apache Kafka\Data/'\
+            + symbol + "_" + str(datetime.date.today() - datetime.timedelta(days=1)) + '.xlsx')
