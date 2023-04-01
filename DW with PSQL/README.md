@@ -4,7 +4,7 @@ This project contains simple pipelines created for practice.
 
 ## Prerequisites
 
-Before running this project, I used the following installed, I reccoment you the same:
+Before running this project, I used the following installed, I reccomend you the same:
 
 - Docker Compose [version v2.15.1 or later]
 - PostgreSQL [version 13.10 or later]
