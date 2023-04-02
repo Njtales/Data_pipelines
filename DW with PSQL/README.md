@@ -9,7 +9,7 @@ Before running this project, I used the following installed, I reccomend you the
 - Docker Compose [version v2.15.1 or later]
 - PostgreSQL [version 13.10 or later]
 
-I have downloaded the dataset from (kaggle)[https://www.kaggle.com/competitions/instacart-market-basket-analysis/data], and extracted it here (..\DW with apache airflow and PSQL\datasets\instacart_market_basket)
+I have downloaded the dataset from [kaggle](https://www.kaggle.com/competitions/instacart-market-basket-analysis/data), and extracted it here (..\DW with apache airflow and PSQL\datasets\instacart_market_basket)
 
 ## Building and Running the Docker Container
 

@@ -1,0 +1,2 @@
+yfinance>=0.1.63
+sqlalchemy<2.0
